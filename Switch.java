@@ -16,6 +16,7 @@ public class Switch {
          break;
          case 3:
          System.out.println("You entered 3");
+
          break;
         default: 
         System.out.println("You entered something else");
