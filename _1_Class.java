@@ -8,7 +8,7 @@ public class _1_Class {
 // It can contain letters, digits, underscores, and dollar signs.
 
 // If a class is public, its filename must match the class name (including case) and have a .java extension.
-// FileName === public lass FileName {...}
+// FileName === public class FileName {...}
 
 // A class name cannot be a Java reserved keyword (e.g., class, public, static, etc.).
 
