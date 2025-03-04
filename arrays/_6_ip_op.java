@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 
@@ -31,10 +32,27 @@ public class _6_ip_op {
             
             System.out.print(arr[row][col] + " "); // Print each element
          }
-         System.out.println(); // Move to the next line after each row
+         System.out.println(); // Move to the next line after each row (\n)
       }
-      
-      
+      /*
+         The 2D array is: 
+            1 1
+            1 1
+            1 1
+      */
       in.close();
+
+      // alternate
+      System.out.println("Arrays.toString: ");
+      for (int row=0; row<arr.length; row++) {
+         // System.out.println("Arrays.toString: " + Arrays.toString(arr[row]));
+
+         System.out.println(Arrays.toString(arr[row]));
+      }
+      /*
+      Arrays.toString:
+      [1, 1]
+      [1, 1]
+      [1, 1] */
    }
 }
