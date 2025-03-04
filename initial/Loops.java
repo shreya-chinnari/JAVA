@@ -9,7 +9,7 @@ public class Loops {
        int n = sc.nextInt();
 
 
-       for (int i=1; i<=10; i++) {
+      for (int i=1; i<=10; i++) {
          System.out.println(i + " * " + n + " = " + i*n);
        }
 
@@ -19,6 +19,9 @@ public class Loops {
          System.out.println("Sum is : (inside loop)  "+sum);
        }
        System.out.println("Sum is : "+sum);
+
+
+       sc.close(); // Close the Scanner to prevent resource leak
    }
 }
 
