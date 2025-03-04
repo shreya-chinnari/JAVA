@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class _3_multidimensional {
+public class _3_strings {
    public static void main(String[] args) {
       Scanner in = new Scanner(System.in);
       System.out.println("\n Enter 3 strings:");
